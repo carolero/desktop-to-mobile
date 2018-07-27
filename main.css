@@ -41,18 +41,6 @@ body {
     background-color:#E836B1;
 }
 
-/* @media screen and (max-width: 480px) {
-    .two {
-        grid-column: 1/13;
-    }
-    .three {
-        grid-column: 1/13;
-        height: 150px;
-    }
-} */
-
-
-
 /* VERSÃO 2.0 - Com A, B, C, D, E, F */
 
 .four {
@@ -70,29 +58,6 @@ body {
     grid-column: 4/7;
     background-color: #41EFB9;
 }
-
-/* @media screen and (max-width: 480px) {
-    .two {
-        grid-column: 1/13;
-    }
-    .three {
-        grid-column: 1/5;
-        height: 100px;
-    }
-    .four {
-        grid-column: 5/9;
-    }
-    .five {
-        grid-column: 9/13;
-    }
-    .six {
-        grid-column: 1/13;
-        grid-row: 4/4;
-        height: 150px;
-    }
-} */
-
-
 
 /* VERSÃO 3.0 - Com A, B, C, D, E, F, G, H */
 
