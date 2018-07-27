@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.one {
+    grid-column: 1/13;
+    background-color: #F7EA00;
+    height: 150px;
+}
+
+.two {
+    grid-column: 1/10;
+    background-color: #34EAA9;
+    height: 300px;
+}
+
+.three {
+    grid-column: 10/13;
+    background-color: #E486EA;
+    height: 300px;
+}
+
+@media screen and (max-width: 480px) {
+    .two {
+        grid-column: 1/13;
+    }
+    .three {
+        grid-column: 1/13;
+        height: 150px;
+    }
+}
